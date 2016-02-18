@@ -1,1 +1,29 @@
-/* Inserta tu codigo aqui */
+
+/*GLOBAL*/
+header{
+	background-image: url("../img/dance_1.jpg");
+	background-repeat: no-repeat;	
+	background-size: 100%;
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+/*MENU*/
+a> li{
+	display: inline-block;
+	text-decoration: none;
+	color: #7F7E7B;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.clases{
+	background-image: url("../img/textura_2.jpg");
+	background-repeat: no-repeat;	
+	background-size: 100%;
+	background-position: center;
+}
+#Map{
+	width:30%; 
+	height: 20%;
+}
