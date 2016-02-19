@@ -1,1 +1,28 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+/* Encabezado*/
+	<div class="row">
+		<div class="col-12">
+			<center>
+				<h1>ESCUELA DE DANZA</h1>
+	<!--MENU-->
+				<nav>
+					<ul>
+						<a href="nosotros.html"><li>Nosotros</li></a>
+						<a href="clases.html"><li>Clases</li></a>
+						<a href="blog.html"><li>Blog</li></a>
+						<a href="#Contacto"><li>Contáctanos</li></a>
+					</ul>
+				</nav>
+			</center>
+		</div>
+	</div>
+/* FOOTER*/
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="ubicacion">© Escuela de Danza. Todos los derechos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>		

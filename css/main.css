@@ -1,13 +1,9 @@
-
 /*GLOBAL*/
-header{
-	background-image: url("../img/dance_1.jpg");
-	background-repeat: no-repeat;	
-	background-size: 100%;
-	background-position: center;
-}
 a{
 	text-decoration: none;
+}
+h1{
+	color:#141147;
 }
 /*MENU*/
 a> li{
@@ -17,13 +13,172 @@ a> li{
 	margin-left: 2%;
 	margin-right: 2%;
 }
+nav{
+	padding: 2%;
+}
+/*HEADER*/
+header{
+	background-image: url("../img/dance_1.jpg");
+	background-repeat: no-repeat;	
+	background-size: 100%;
+	height: 450px;
+}
+.studio{
+	color:#C6C5C5; 
+	font-size: 80px;
+	padding:5%; 
+}
+.Intro{
+	width: 25%;
+	height: 40%;
+	margin: 10% 0% 10% -10%;
+}
+.Intro>p{
+	color: #C6C5C5 ;
+}
+.Intro>a{
+	color: #C6C5C5 ;
+	text-align: center;
+}
+.botonStudio{
+	background-color: #05041A;
+	padding: 5%;
+	width: 70%;
+	height: 20%;
+	margin:10% 0% 0% 2%; 
+
+}
+/*SECTION*/
+
 .clases{
 	background-image: url("../img/textura_2.jpg");
 	background-repeat: no-repeat;	
 	background-size: 100%;
-	background-position: center;
+	position: center;
+	margin top:-10%;
+	padding: 5% 10% 5% 10%;
+}
+.OfertaClases{
+		font-size: 22px;
+}
+.deco{
+	width: 20%;
+	height: 10%;
+	position: relative;
+	margin-top: -5%;
+}
+.boton-text{
+	width: 40%;
+	height:15%;
+	background-color: #1B1846;
+	padding: 2%;
+	position: bottom;
+	margin: -5%;
+	border-radius: 5%;
+}
+.link{
+	color: white;
+	position: center;
+	padding: 2%;
 }
 #Map{
 	width:30%; 
 	height: 20%;
+}
+/*INSTRUCTORES*/
+#inst1{
+	background-image: url("../img/instructor_4.jpg");
+	background-repeat: no-repeat;	
+	background-size: 450px 100%;
+	height: 450px;
+	}
+#inst2{
+	background-image: url("../img/profesor_9.jpg");
+	background-repeat: no-repeat;	
+	background-size: 450px 100%;
+	height: 450px;
+	margin: 0 auto;
+	}
+.inst{
+	width: 100%;
+	height: 100%;
+}
+.boton-img{
+	width: 50%;
+	height:20%;
+	background-color: #1B1846;
+	padding: 2%;
+	margin: -5%;
+	float:center; 
+}
+.border{
+	border:solid 1px #05041A;
+}
+/*FRASE*/
+.frase{
+	position:center;
+	font-size:30px;
+}
+/*UBICACION*/
+#Ubicacion{
+	background-color:#1B1846; 
+	padding: 5%;
+}
+.ubicacion{
+	color:  #C6C5C5;
+	padding-right: 30%;
+	font-size: 12px;
+}
+.caja{
+	padding-top: 5% ;
+}
+h4{
+	color:  #C6C5C5; 
+}
+iframe{
+	width:400px; 
+	height:250px; 
+	border:0;
+	margin-left:-50%;
+
+}
+/*FORMULARIO*/
+#formulario{
+	padding:5%; 
+}
+#Contacto{
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;	
+	background-size: 55%;
+	background-position: right;
+	margin: 2%;
+	height: 350px;
+}
+.input{
+	border:solid 1px #DBDCDF;
+	padding: 2%;
+	width: 50%;
+	margin: 1%;
+}
+#submit_button{
+	width: 51%;
+	height:30%;
+	background-color: #1B1846;
+	padding: 1%;
+	margin-bottom:2%; 
+	margin-left: -1%;
+}
+.contact{
+	color:#1B1846;
+	margin-left: -10%; 
+}
+.Formulario{
+	padding-left: 20%;
+
+}
+
+/*FOOTER*/
+footer{
+	background-color:#1B1846;
+	padding: 2% 0% 1% 1%;
 }

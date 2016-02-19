@@ -1,1 +1,51 @@
 /* Inserta tu codigo aqui */
+/*GLOBAL*/
+
+a{
+	text-decoration: none;
+}
+h1{
+	color:#141147;
+}
+/*MENU*/
+a> li{
+	display: inline-block;
+	text-decoration: none;
+	color: #7F7E7B;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+nav{
+	padding: 2%;
+}
+
+/*SECTION*/
+.link{
+	color: white;
+	position: center;
+	padding: 2%;
+}
+
+
+/*FORMULARIO*/
+#formulario{
+	padding:5%; 
+}
+#Contacto{
+	background-image: url("../img/shoes_1.jpg");
+	background-repeat: no-repeat;	
+	background-size: 55%;
+	background-position: right;
+	margin: 2%;
+	height: 350px;
+}
+/*FOOTER*/
+footer{
+	background-color:#1B1846;
+	padding: 2% 0% 1% 1%;
+}
+.ubicacion{
+	color:  #C6C5C5;
+	padding-right: 30%;
+	font-size: 12px;
+}
